@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background:  hsl(216, 12%, 8%);
+}
+
+.card {
+    max-width: 360px;
+    min-width: 350px;
+    margin: auto;
+    margin-top: 170px;
+    line-height: 1.3;
+    background: hsl(213, 19%, 18%);
+    color: white;
+    padding: 25px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.card-component {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+
+.icon-star > img {
+    margin-left: 5px;
+    padding: 15px;
+    border-radius: 50%;
+    /* border: 1px solid hsl(216, 12%, 34%); */
+    color:hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 24%);
+}
+
+.star-rating {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.rate-content {
+    padding: 10px;
+}
+.rate-description {
+    margin-bottom: 10px;
+    font-weight: 500;     
+}
+
+.rate-content p {
+    padding-right: 20px;
+}
+
+.star-rating {
+    margin: 15px 0;
+}
+
+.rate-number {
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 34%);
+    padding: 12px 17px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn-sumbit  {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.submit-btn {
+    border-radius: 25px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    font-weight: 600;
+    letter-spacing: 2px;;
+}
+
+.rate-number:hover {
+    background-color:hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+
+
+.ty-component {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+.rate-score {
+    background: hsl(216, 12%, 30%);
+    color: hsl(25, 97%, 53%);
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.ty-content {
+    margin-top: 10px;
+}
+
+.ty-text {
+    font-weight: 500;
+    color: white;
+    filter: brightness(520%);
+}
+
+.ty-content p {
+    margin-top: 20px;
+    line-height: 1.5;
+    opacity: 0.7;
+}
+
+.selected {
+    background-color: hsl(25, 97%, 53%);
+}
+
+@media screen and (max-width: 375px) {
+
+    .card {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px){
+
+    .card {
+        margin-top: 150px;
+    }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+
+  <!-- Rating state start -->
+  <main class="card">
+    <div class="card-component">
+      <div class="icon-star">
+        <img src="images/icon-star.svg" alt="icon-star">
+      </div>
+      <div class="rate-content">
+        <h1 class="rate-description">How did we do?</h1>
+        <p>Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!</p>
+      </div>
+      <div class="star-rating">
+        <div class="rate-numbers">
+          <span class="rate-number">1</span>
+        </div>
+        <div class="rate-numbers">
+          <span class="rate-number">2</span>
+        </div>
+        <div class="rate-numbers">
+          <span class="rate-number">3</span>
+        </div>
+        <div class="rate-numbers">
+          <span class="rate-number">4</span>
+        </div>
+        <div class="rate-numbers">
+          <span class="rate-number">5</span>
+        </div>
+      </div>
+      <div class="btn-sumbit">
+        <button type="submit" class="submit-btn" value="submit" disabled>SUBMIT</button>
+      </div>
+    </div>
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <div class="ty-component">
+      <div class="ty-image">
+        <img src="./images/illustration-thank-you.svg" alt="Thank you!" >
+      </div>
+      <div class="rate-score">
+      </div>
+      <div class="ty-content">
+        <h1 class="ty-text">Thank you!</h1>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+      </div>
+    </div>
+    <!-- Thank you state end -->
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+
+<!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>  -->
+
+</html>
